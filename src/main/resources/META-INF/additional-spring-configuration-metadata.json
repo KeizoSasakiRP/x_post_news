@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "twitter.api-key",
+    "type": "java.lang.String",
+    "description": "A description for 'twitter.api-key'"
+  },
+  {
+    "name": "twitter.apiSecretKey",
+    "type": "java.lang.String",
+    "description": "A description for 'twitter.apiSecretKey'"
+  },
+  {
+    "name": "twitter.accessToken",
+    "type": "java.lang.String",
+    "description": "A description for 'twitter.accessToken'"
+  },
+  {
+    "name": "twitter.accessTokenSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'twitter.accessTokenSecret'"
+  }
+]}

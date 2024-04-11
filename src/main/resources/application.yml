@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: news_post
+twitter:
+  apiKey: YOUR_API_KEY
+  apiSecretKey: YOUR_API_SECRET_KEY
+  accessToken: YOUR_ACCESS_TOKEN
+  accessTokenSecret: YOUR_ACCESS_TOKEN_SECRET
