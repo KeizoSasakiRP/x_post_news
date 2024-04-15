@@ -3,6 +3,8 @@ package com.example.news_post.component;
 import java.util.List;
 import java.util.Random;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -16,6 +18,8 @@ import io.github.redouane59.twitter.signature.TwitterCredentials;
 
 @Component
 public class NewsPost {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(NewsPost.class);
 
     // Twitter APIの認証情報
     @Value("${twitter.apiKey}")
@@ -52,7 +56,7 @@ public class NewsPost {
                 .build());
 
         Tweet tweet = twitterClient.postTweet("記事タイトル「" + newsContents.get(0) + "」\n" + newsContents.get(1));
-        System.out.println("Tweet ID: " + tweet.getId());
+        LOGGER.info("Tweet ID: " + tweet.getId());
 
     }
 
