@@ -6,3 +6,6 @@ twitter:
   apiSecretKey: YOUR_API_SECRET_KEY
   accessToken: YOUR_ACCESS_TOKEN
   accessTokenSecret: YOUR_ACCESS_TOKEN_SECRET
+news:
+  apiKey: YOUR_API_KEY
+  apiEndPoint: https://newsapi.org/v2/top-headlines

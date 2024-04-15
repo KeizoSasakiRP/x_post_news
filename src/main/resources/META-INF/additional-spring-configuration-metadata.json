@@ -18,5 +18,15 @@
     "name": "twitter.accessTokenSecret",
     "type": "java.lang.String",
     "description": "A description for 'twitter.accessTokenSecret'"
+  },
+  {
+    "name": "news.apiKey",
+    "type": "java.lang.String",
+    "description": "A description for 'news.apikey'"
+  },
+  {
+    "name": "news.apiEndPoint",
+    "type": "java.lang.String",
+    "description": "A description for 'news.apiEndPoint'"
   }
 ]}
